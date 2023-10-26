@@ -14,7 +14,7 @@
   </tr>
 </table>
 
-<center><img src="/assets/video-to-gif.gif"></center>
+<center><img src=".\src\assets\video-to-gif.gif"></center>
 
 ## Project link running:
 <a target="_blank" href="https://react-with-styled-components.vercel.app/">Project Link</a>
