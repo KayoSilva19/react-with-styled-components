@@ -8,9 +8,14 @@ import { Header } from './Components/Header'
 
 function App() {
   const [currentTheme, setCurrentTheme] = useState(dark)
+
+  function handleThemeChange() {
+    const themeAlternate = currentTheme === dark ? light : dark
+    setCurrentTheme(themeAlternate)
+  }
   return (
     <ThemeProvider theme={currentTheme}>
-      <Header />
+      <Header currentTheme={currentTheme} ThemeChange={handleThemeChange} />
       <ProductBuy />
       <GlobalStyle />
     </ThemeProvider>
