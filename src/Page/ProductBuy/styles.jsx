@@ -1,7 +1,6 @@
 import { styled } from 'styled-components'
 
 export const ContainerWrapper = styled.main`
-  background-color: ${({ theme }) => theme.colors.background};
   height: 100vh;
 
   display: grid;
